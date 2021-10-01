@@ -8,53 +8,52 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <title>Pozivnice</title>
     </head>
 
 <style>
-    div {
+   
+  main {
     background: #193B40;
     border-radius: 10px;
     color: #CB823B;
     width: 50%;
+    padding: 10px;
+    font-family: 'Ephesis', cursive;
+    margin: 5px auto 5px auto;
+    position: center;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  div {
+    background: #193B40;
+    border-radius: 10px;
+    color: #CB823B;
+    width: 100%;
     padding: 0px;
     font-family: 'Ephesis', cursive;
     margin: 5px auto;
     position: center;
     text-align: center;
     font-size: 50px;
+  }
+
+  @media (min-width: 600px) {
+    main {
+      flex-wrap: nowrap;
+      position: left;
     }
-@media (max-width:767px) { 
-	.h1 {
-    background: #193B40;
-    border-radius: 10px;
-    color: #CB823B;
-    width: 0%;
-    padding: 0px;
-    font-family: 'Dancing Script', cursive;
-font-family: 'Ephesis', cursive;
-font-family: 'Sacramento', cursive;
-    margin: 5px auto;
-    position: left;
-    text-align: center;
-    font-size: 20px;
-		
-	}
-    
+
+    div {
+      flex-basis: 50%;
+    }
+  }
 </style>
-<body>
-    <div>
 
-        <h1>
-            <br />
-            Pozivnice za  vjenčanje
-        </h1>
+<main>
+    <div>Pozivnica za vjenčanje</div>
+    <div>Mirana i Mateje</div>
+</main>
 
-        <h2>
-            <strong>Mirana i Mateje </strong>
-        </h2>
-
-    </div>
-</body>
-    
