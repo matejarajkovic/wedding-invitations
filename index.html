@@ -27,7 +27,12 @@ font-family: 'Sacramento', cursive;
     text-align: center;
     font-size: 50px;
     }
-    
+   @media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
     
 </style>
 <body>
@@ -42,31 +47,6 @@ font-family: 'Sacramento', cursive;
             <strong>Mirana i Mateje </strong>
         </h2>
 
-        <style>
-            .left,
-            .right {
-                float: left;
-                width: 20%;
-                /* The width is 20%, by default */
-            }
-        
-            .main {
-                float: left;
-                width: 60%;
-                /* The width is 60%, by default */
-            }
-        
-            /* Use a media query to add a breakpoint at 800px: */
-            @media screen and (max-width: 800px) {
-        
-                .left,
-                .main,
-                .right {
-                    width: 100%;
-                    /* The width is 100%, when the viewport is 800px or smaller */
-                }
-            }
-        </style>
     </div>
 </body>
         
